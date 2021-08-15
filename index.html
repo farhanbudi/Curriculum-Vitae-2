@@ -23,6 +23,7 @@
         .header {
             display: flex;
             padding: 120px;
+            margin-top: 120px !important;
 
             font-family: 'Heebo';
 
@@ -41,7 +42,6 @@
             margin: 0;
         }
         .h-left p {
-            font-weight: normal;
             font-size: 16px;
             line-height: 23px;
         }
@@ -57,6 +57,7 @@
         
         .box {
             background: #EDF7FA;
+            padding-bottom: 20px;
         }
         .row1 {
             display: flex;
@@ -64,6 +65,9 @@
             font-family: 'Inter';
             margin-left: 150px;
             margin-right: 150px;
+        }
+        .row1 h5 {
+            margin-bottom: 15px;
         }
         .r1-left {
             width : 50%;
@@ -81,10 +85,8 @@
             font-size: 14px;
             line-height: 17px;
 
-            /* identical to box height */
             letter-spacing: 0.015em;
 
-            /* Inside Auto Layout */
             flex: none;
             order: 0;
             align-self: flex-start;
@@ -95,7 +97,6 @@
             font-size: 12px;
             line-height: 15px;
             
-            /* Inside Auto Layout */
             flex: none;
             order: 1;
             align-self: flex-start;
@@ -105,8 +106,14 @@
         .r1-right ul {
             font-size: 12px;
             line-height: 15px;
+            margin-left: 17px;
+            padding: 0;
 
             color: #52575C;
+        }
+        /* add space between list */
+        .r1-right li { 
+            margin-bottom: 3px ;  
         }
 
         .row2 {
@@ -122,6 +129,7 @@
 
             border-bottom: 1px solid #E0E0E0;
         }
+        /* add margin between flexbox */
         .r2-flex > div {
             margin: 10px;
         }
@@ -135,7 +143,6 @@
         .r2-right h4 {
             font-size: 30px;
             margin-top: 0 !important;
-
             margin-bottom: 20px !important;
         }
         /* title hyperlink to project*/
@@ -182,7 +189,8 @@
             line-height: 23px;
         }
         .footer {
-            padding: 100px;
+            padding: 50px;
+            margin-top: 100px;
 
             font-family: 'Heebo';
             font-size: 14px;
@@ -190,10 +198,14 @@
 
             text-align: center;
             color: #21243D;
-
         }
-        
-        
+        /* Media responsive for mobile */
+        @media screen and (max-width: 800px) {
+            .header, .row1, .r2-flex {   
+                flex-direction: column;
+            }
+        }
+
 
     </style>
 </head>
@@ -253,9 +265,6 @@
         <a href="http://linkedin.com/in/farhan-nurrizky-budi-novindra-321a751b2"><img src="img/linkedin.png"></a>
         <p>Copyright ©2021 All rights reserved </p>
     </div>
-
-
-
 
 </body>
 </html>
