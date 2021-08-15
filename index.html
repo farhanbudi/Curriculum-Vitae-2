@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!--Add font Heebo and Inter-->
+    <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <style>
+        h5 {
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+
+            letter-spacing: 0.015em;
+            text-transform: uppercase;
+
+            color: #136223;
+        }
+        .header {
+            display: flex;
+            padding: 120px;
+
+            font-family: 'Heebo';
+
+            color: #21243D;
+        }
+        .header > div {
+            margin: 50px;
+        }
+        .h-left {
+            width: 70%;
+        }
+        .h-left h1 {
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 60px;
+            margin: 0;
+        }
+        .h-left p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+        }
+        .h-right {
+            width: 30%;
+        }
+        .h-right img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .box {
+            background: #EDF7FA;
+        }
+        .row1 {
+            display: flex;
+
+            font-family: 'Inter';
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        .r1-left {
+            width : 50%;
+        }
+        .r1-right {
+            width : 50%;
+        }
+        .r1-left p {
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.05em;
+        }
+        .r1-right h6 {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+            /* identical to box height */
+            letter-spacing: 0.015em;
+
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            align-self: flex-start;
+            flex-grow: 0;
+            margin: 0px;
+        }
+        .r1-right p {
+            font-size: 12px;
+            line-height: 15px;
+            
+            /* Inside Auto Layout */
+            flex: none;
+            order: 1;
+            align-self: flex-start;
+            flex-grow: 0;
+            margin: 6px 0px;
+        }
+        .r1-right ul {
+            font-size: 12px;
+            line-height: 15px;
+
+            color: #52575C;
+        }
+
+        .row2 {
+            margin-left: 150px;
+            margin-right: 150px;
+
+            font-family: 'Heebo';
+
+            color: #21243D;
+        }
+        .r2-flex {
+            display: flex;
+
+            border-bottom: 1px solid #E0E0E0;
+        }
+        .r2-flex > div {
+            margin: 10px;
+        }
+        .r2-left img {
+            width: 246px;
+            height: 180px;
+            object-fit: cover;
+            
+            border-radius: 8px;
+        }
+        .r2-right h4 {
+            font-size: 30px;
+            margin-top: 0 !important;
+
+            margin-bottom: 20px !important;
+        }
+        /* title hyperlink to project*/
+        .r2-right a:link {
+            color: #21243D;
+            text-decoration: none;
+        }
+        .r2-right a:visited {
+            color: #21243D;
+            text-decoration: none;
+        }
+        .r2-right a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        .r2-year {
+            display: flex;
+            align-items: baseline;
+
+            margin-bottom: 20px !important;
+            padding: 0 !important;
+        }
+        .r2-year p {
+            display: inline-block;
+            font-weight: 900;
+            font-size: 18px;
+            color: #FFFFFF;
+
+            background: #142850;
+            border-radius: 16px;
+            padding: 0 10px 0 10px;
+            margin: 0 !important;
+        }
+        .r2-year h6 {
+            font-size: 20px;
+            line-height: 29px;
+
+            color: #8695A4;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .r2-right-p {
+            font-size: 16px;
+            line-height: 23px;
+        }
+        .footer {
+            padding: 100px;
+
+            font-family: 'Heebo';
+            font-size: 14px;
+            line-height: 21px;
+
+            text-align: center;
+            color: #21243D;
+
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class ="h-left">
+            <h1>Farhan Nurrizky Budi Novindra</h1>
+            <h1>Software Developer</h1>
+            <p>I am a physics fresh graduate. I am a disciplined and hardworking person. I have good time management, analytical skills, and problem-solving skills. I am an excellent team worker and also able to work independently. I am interested in working in the programming, data analysis, data scientist, software development, database engineer, and cloud engineer fields.</p>
+        </div>
+        <div class="h-right">
+            <img src="img/pas_foto.JPG">
+        </div>
+    </div>
+    <div class="box">
+        <div class="row1">
+            <div class="r1-left">
+                <h5>CONTACT</h5>
+                <!--Kurang simbol-->
+                <p><img src="img/phone.png"> &ensp; +62 - 82240613561</p>
+                <p></p><img src="img/mail.png"> &ensp; farhannurrizky@gmail.com</p>
+                <p><img src="img/office.png"> &ensp; Jl. Pluto Raya A-10, Bandung, Indonesia</p>
+                <p><img src="img/location.png"> &ensp; Jl. Pluto Raya A-10, Bandung, Indonesia</p>
+            </div>
+            <div class="r1-right">
+                <h5>EDUCATION</h5>
+                <h6>Institut Teknologi Bandung</h6>
+                <p><i>Physics</i> &ensp; August 2016 - July 2020</p>
+                <ul>
+                    <li>Graduated Cum Laude from Physics ITB with GPA 3.59 (Jul 2020).</li>
+                    <li>Lab assistant in Computational Physics Laboratory ITB (Jan 2020 – May 2020).</li>
+                    <li>Awardee of Physic Dean’s List in Academic Performance (First Semester of the 2018/2019 Academic Year).</li>
+                    <li>Lab assistant in Basic Physics Laboratory ITB (Aug 2018 – Dec 2018 and Jan 2019 – May 2019).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <h5>Project/Experience</h5>
+        <div class = "r2-flex">
+            <div class="r2-left">
+                <img src="img/project.png">
+            </div>
+            <div class="r2-right">
+                <h4><a href="https://github.com/farhanbudi/Aplikasi-untuk-Bank-Booking-Services">Bank Application for Booking Services</a></h4>
+                <div class="r2-year">
+                    <p>2020</p> &ensp; <h6>Back-End Project</h6>
+                </div>
+                <p class="r2-right-p">Create a backend program for web and mobile application for scheduling meetings between priority bank customers and personal bank assistants using Node.js and MySQL</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/farhanbudii"><img src="img/fb.png"></a> &ensp; &ensp; &ensp;
+        <a href="https://www.instagram.com/farhanurrizky/"><img src="img/ig.png"></a> &ensp; &ensp; &ensp;
+        <a href="https://twitter.com/farhanbudii"><img src="img/twitter.png"></a> &ensp; &ensp; &ensp;
+        <a href="http://linkedin.com/in/farhan-nurrizky-budi-novindra-321a751b2"><img src="img/linkedin.png"></a>
+        <p>Copyright ©2021 All rights reserved </p>
+    </div>
+
+
+
+
+</body>
+</html>
